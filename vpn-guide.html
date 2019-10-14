@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="assets/img/favicon.ico">
+  <title>VPN Empire</title>
+  
+  <!-- CSS Files -->
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.10/css/bootstrap-select.min.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/style.min.css" media="all">
+
+</head>
+
+<body>
+    <div id="SidenavMenu" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn">&times;</a>
+        <ul class="topleft-menu nav-tabs">
+            <li class="border-bottom">
+                <a href="#menu-vpns">Find Your VPN</a>
+                <ul class="topleft-submenu" id="menu-vpns">
+                    <li><a href="vpn-details.html">Speed</a></li>
+                    <li><a href="vpn-details.html">Country</a></li>
+                    <li><a href="vpn-details.html">Rating</a></li>
+                </ul>
+            </li>
+            <li class="border-bottom">
+                <a href="#menu-reviews">Reviewes</a>
+                <ul class="topleft-submenu" id="menu-reviews">
+                    <li><a href="vpn-details.html">NordVPN</a></li>
+                    <li><a href="vpn-details.html">VPNHub</a></li>
+                    <li><a href="vpn-details.html">SaferVPN</a></li>
+                </ul>
+            </li>
+            <li class="border-bottom"><a href="vpn-details.html">Cupons</a></li>
+            <li class="border-bottom"><a href="vpn-guide.html">Guides</a></li>
+        </ul>
+    </div>
+    <!-- header-top-section -->
+    <div class="header-menu sticky-menu sticky-scroll bg-header">
+        <div class="navbar navbar-expand-xl position-unset">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a href="javascript:void(0)" class="sidenav-toggle-icon toggle-button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                    <a href="index.html">
+                        <picture>
+                            <source srcset="assets/img/webp/logo.webp" type="image/webp">
+                            <source srcset="assets/img/logo.png" type="image/png">
+                            <img src="assets/img/logo.png" alt="Company logo" class="company-logo">
+                        </picture>
+                    </a>
+                </div>
+                <ul class="navbar-nav ml-5 mr-auto top-menu">
+                   <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="vpnDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            VPNs
+                        </a>
+                        <div class="dropdown-menu header-submenu" aria-labelledby="vpnDropdown">
+                            <a class="dropdown-item" href="vpn-guide.html">Speed</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="vpn-guide.html">Country</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="vpn-guide.html">Rating</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="ReviewsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Reviews
+                        </a>
+                        <div class="dropdown-menu header-submenu" aria-labelledby="ReviewsDropdown">
+                            <a class="dropdown-item" href="vpn-guide.html">NordVPN</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="vpn-guide.html">VPNHub</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="vpn-guide.html">SaferVPN</a>
+                        </div>
+                    </li>
+                    <li><a class="nav-link " href="vpn-details.html">Cupons</a></li>
+                    <li><a class="nav-link " href="vpn-guide.html ">Guides</a></li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <a href="#" class="btn btnSearch">
+                        <picture>
+                            <!--<source srcset="assets/img/webp/logo.webp" type="image/webp">-->
+                            <source srcset="assets/img/iconSearch.png" type="image/png">
+                            <img src="assets/img/iconSearch.png " alt="iconSearch logo " class="searchIcon">
+                        </picture>
+                    </a>
+                    <select class="selectpicker theme-header-select theme-language-select">
+                        <option> GER</option>
+                        <option>ENG</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="header-section pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <ul class="pagination page-breadcrumb d-lg-flex">
+                        <li>
+                            <a href="index.html"><img src="assets/img/icon/home-dark.png" alt="" class="mr-2">Home</a>
+                        </li>
+                        <li>
+                            <a href=""> <img src="assets/img/icon/arrow-dark.png" class="align-middle"><span class="px-2">Guides</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ========== Start Reviews section ====================== -->
+    <section id="guide-section" class="guide-section mb-5">
+        <div class="container">
+            <h1 class="page-title max-500 text-center mb-4 mx-auto">Latest trending guides available</h1>
+            <p class="page-subtitle text-center">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut laboreet</p>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <div class="theme-box theme-card">
+                        <div class="img-box" style="background-image:url('assets/img/trading-guides2.jpg')"></div>
+                        <h6 class="fw-600 mt-3 mb-4">5 Ways to Get NordVPN If You're in China (Works in 2019)</h6>
+                        <div class="text-center my-3">
+                            <a class="theme-button py-4 px-5">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="theme-box theme-card">
+                        <div class="img-box" style="background-image:url('assets/img/trading-guides1.jpg')"></div>
+                        <h6 class="fw-600 mt-3 mb-4">5 Ways to Get NordVPN If You're in China (Works in 2019)</h6>
+                        <div class="text-center my-3">
+                            <a class="theme-button py-4 px-5">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="theme-box theme-card">
+                        <div class="img-box" style="background-image:url('assets/img/trading-guides2.jpg')"></div>
+                        <h6 class="fw-600 mt-3 mb-4">5 Ways to Get NordVPN If You're in China (Works in 2019)</h6>
+                        <div class="text-center my-3">
+                            <a class="theme-button py-4 px-5">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===============  Reviews section end =========== -->
+
+
+    <!-- ========== start footer====================== -->
+    <footer class="footer ">
+        <div class="container py-4 px-sm-0 footer-container">
+            <div class="footer-row d-none d-sm-none d-md-block">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 mt-4 ">
+                        <p class="px-3 mb-2">Casinos</p>
+                        <ul class="nav d-flex flex-column ">
+                            <li class="nav-item">
+                                <a class="nav-link">Responsible Gambling</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link">Deposits & Withdrawals</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link">Licensing & Regulation</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link">Privacy policy</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link">Terms of use</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link">Cookies policy</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6  mt-4">
+
+                        <p class="px-3 mb-2">Bonus</p>
+                        <ul class="nav d-flex flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link">New Casinos 2019</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link">Free Spins No Deposits</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link">Top Uk Online Casinos</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link">No Deposit Casinos</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link">Mobile Casinos</a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6  mt-4">
+                        <p class="px-3 mb-2">Friespiele</p>
+                        <ul class="nav d-flex flex-column">
+                            <li class="nav-item"><a class="nav-link">About Us</a></li>
+                            <li class="nav-item"><a class="nav-link">Contact Us</a></li>
+                            <li class="nav-item"><a class="nav-link">Canadian no deposit codes</a></li>
+                            <li class="nav-item"><a class="nav-link"> Sitemap</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mt-4">
+
+                        <p class="px-3 mb-2">Kontakt</p>
+                        <ul class="nav d-flex flex-column">
+                            <li class="nav-item"><a class="nav-link">Blackjack</a></li>
+                            <li class="nav-item"><a class="nav-link">Roulette</a></li>
+                            <li class="nav-item"><a class="nav-link">Online scratchcards</a></li>
+                            <li class="nav-item"><a class="nav-link">Baccarat</a></li>
+                            <li class="nav-item"><a class="nav-link"> Video Poker</a></li>
+                            <li class="nav-item"><a class="nav-link">Useful Gaming Tips</a></li>
+                            <li class="nav-item"><a class="nav-link"> Casino how to start guide </a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <!-- =======  start accordion ======= -->
+
+            <div id="accordion" class="footer-mobile-links d-xs-block d-sm-block d-md-none">
+                <div class="bg-transparent footer-mobile-content">
+                    <div class="footer-mobile-header">
+                        <p class="d-flex justify-content-between px-3" data-toggle="collapse" href="#menuone">
+                            <span>Casinos</span>
+                            <span class="icon">
+                                <img src="assets/img/icon/plus.png" class="f-plus">
+                                <img src="assets/img/icon/minus.png" class="f-minus d-none">
+                            </span>
+                        </p>
+                    </div>
+                    <div id="menuone" class="footer-mobile-list collapse">
+                        <ul class="nav d-flex flex-column mt-2">
+
+                            <li class="nav-item"><a class="nav-link">Responsible Gambling</a></li>
+                            <li class="nav-item"><a class="nav-link">Deposits & Withdrawals</a></li>
+                            <li class="nav-item"><a class="nav-link">Licensing & Regulation</a></li>
+                            <li class="nav-item"><a class="nav-link">Privacy policy</a></li>
+                            <li class="nav-item"><a class="nav-link">Terms of use</a></li>
+                            <li class="nav-item"><a class="nav-link"> Cookies policy </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bg-transparent footer-mobile-content">
+                    <div class="footer-mobile-header">
+                        <p class="d-flex justify-content-between px-3" data-toggle="collapse" href="#menutwo">
+                            <span>Bonus</span>
+                            <span class="icon">
+                                <img src="assets/img/icon/plus.png" class="f-plus">
+                                <img src="assets/img/icon/minus.png" class="f-minus d-none">
+                            </span>
+                        </p>
+                    </div>
+                    <div id="menutwo" class="footer-mobile-list collapse">
+                        <ul class="nav d-flex flex-column mt-2">
+
+
+                            <li class="nav-item"><a class="nav-link"> New Casinos 2019</a></li>
+                            <li class="nav-item"><a class="nav-link"> Free Spins No Deposit</a></li>
+                            <li class="nav-item"><a class="nav-link">Top Uk Online Casinos</a></li>
+                            <li class="nav-item"><a class="nav-link"> No Deposit Casinos</a></li>
+                            <li class="nav-item"><a class="nav-link"> Mobile Casinos</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-transparent footer-mobile-content">
+                    <div class="footer-mobile-header">
+                        <p class="d-flex justify-content-between px-3" data-toggle="collapse" href="#menuthree">
+                            <span>Friespiele</span>
+                            <span class="icon">
+                                <img src="assets/img/icon/plus.png" class="f-plus">
+                                <img src="assets/img/icon/minus.png" class="f-minus d-none">
+                            </span>
+                        </p>
+                    </div>
+                    <div id="menuthree" class="footer-mobile-list collapse">
+                        <ul class="nav d-flex flex-column mt-2">
+
+                            <li class="nav-item"><a class="nav-link">About Us</a></li>
+                            <li class="nav-item"><a class="nav-link">Contact Us</a></li>
+                            <li class="nav-item"><a class="nav-link">Canadian no deposit codes</a></li>
+                            <li class="nav-item"><a class="nav-link">Sitemap</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-transparent footer-mobile-content">
+                    <div class="footer-mobile-header">
+                        <p class="d-flex justify-content-between px-3" data-toggle="collapse" href="#menufour">
+                            <span>Friespiele</span>
+                            <span class="icon">
+                                <img src="assets/img/icon/plus.png" class="f-plus">
+                                <img src="assets/img/icon/minus.png" class="f-minus d-none">
+                            </span>
+                        </p>
+                    </div>
+                    <div id="menufour" class="footer-mobile-list collapse">
+                        <ul class="nav d-flex flex-column mt-2">
+
+                            <li class="nav-item"><a class="nav-link">Blackjack</a></li>
+                            <li class="nav-item"><a class="nav-link">Roulette</a></li>
+                            <li class="nav-item"><a class="nav-link">Online scratchcards</a></li>
+                            <li class="nav-item"><a class="nav-link">Baccarat</a></li>
+                            <li class="nav-item"><a class="nav-link">Video Poker</a></li>
+                            <li class="nav-item"><a class="nav-link">Useful Gaming Tips</a></li>
+                            <li class="nav-item"><a class="nav-link"> Casino how to start guide</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- =======  End accordion ======= -->
+        </div>
+        <!-- <hr class="footer-hr w-75"> -->
+        <div class="container text-light d-flex flex-lg-row flex-column py-3 footer-last-container justify-content-lg-between justify-content-sm-center">
+            <div class="text-center">
+                <a href="#"> Copyright © 1996–2019 wunder.com™. All rights reserved.
+                </a>
+            </div>
+            <div class="text-center">
+                <a href="#"> Terms & Conditions</a> <span class="px-2"> | </span>
+                <a href="#"> Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- end footer -->
+    <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.10/js/bootstrap-select.min.js"></script>
+    <script type="text/javascript" src="assets/js/scripts.min.js"></script>
+
+</body>
+
+</html>
