@@ -61,8 +61,10 @@ headerBtnLiClasses.forEach(function (ele) {
 });
 var itemBtnTwo=document.querySelectorAll('.itemBtnTwo');
 
+    if(itemBtnTwo.length)
     itemBtnTwo.forEach(function (ele) {
-    ele.onclick = function (e) {
+
+        ele.onclick = function (e) {
         ele.children[1].children[1].classList.toggle('hide');
     };
 
@@ -72,6 +74,7 @@ var itemBtnTwo=document.querySelectorAll('.itemBtnTwo');
         }
     });
 });
+
 var nav = document.querySelector('.nav'),
     nav__close = document.querySelector('.nav__close'),
     burgerMenu = document.querySelector('.header__top__all__left__navMenu');
