@@ -59,7 +59,9 @@ headerBtnLiClasses.forEach(function (ele) {
         }
     });
 });
-document.querySelectorAll('.itemBtnTwo').forEach(function (ele) {
+var itemBtnTwo=document.querySelectorAll('.itemBtnTwo');
+
+    itemBtnTwo.forEach(function (ele) {
     ele.onclick = function (e) {
         ele.children[1].children[1].classList.toggle('hide');
     };
