@@ -1,19 +1,19 @@
+"use strict";
 
-
-var liMenuClasses = ['headerFirstLi', 'headerSecLi','thirdLiOptions','sectionWunder__dropdownButton__cont','sectionReviewsDropdownButton'];
+var liMenuClasses = ['headerFirstLi', 'headerSecLi', 'thirdLiOptions', 'sectionWunder__dropdownButton__cont', 'sectionReviewsDropdownButton'];
 var headerBtnLiClasses = ['headerFirstSidebBtn', 'headerSecondSidebBtn', 'headerThirdSidebBtn'];
 liMenuClasses.forEach(function (ele) {
     manageMenu(ele);
 });
+var counter = 0;
 
-let counter=0;
 function manageMenu(ele) {
     var element = document.querySelector('.' + ele);
 
     if (element) {
         element.isClicked = false;
-        element.onclick = function (e) {
 
+        element.onclick = function (e) {
             if (!element.isClicked && !element.children[2].classList.contains('hide')) {
                 element.children[2].classList.remove('hide');
             } else {
@@ -25,21 +25,15 @@ function manageMenu(ele) {
             } else {
                 element.isClicked = true;
             }
-
         };
-
     }
 
-    if (element)
-        window.addEventListener('click', function (e) {
+    if (element) window.addEventListener('click', function (e) {
         if (e.target !== element && !element.contains(e.target)) {
-
-            try{
-
+            try {
                 element.isClicked = false;
                 element.children[2].classList.add('hide');
-
-            }catch (e) {}
+            } catch (e) {}
         }
     });
 }
@@ -94,17 +88,15 @@ window.addEventListener('click', function (e) {
     }
 });
 
-window.onscroll=function (e) {
-    var headerTop=document.querySelector('.header__top');
+window.onscroll = function (e) {
+    var headerTop = document.querySelector('.header__top');
 
-    if(window.pageYOffset>=35){
+    if (window.pageYOffset >= 35) {
         headerTop.classList.add('headerBG');
-    }else{
+    } else {
         headerTop.classList.remove('headerBG');
     }
 };
-
-
 
 var footerFoldIcon = document.querySelectorAll('.footer__allLink__col__top i');
 footerFoldIcon.forEach(function (ele) {
@@ -124,12 +116,10 @@ footerFoldIcon.forEach(function (ele) {
         }
     });
 });
-
-
 var searchModal = document.querySelector('.searchModal'),
     searchIcon = document.querySelector('.searchIcon img'),
     searchBoxCloseBtn = document.querySelector('.searchModal__content__close'),
-    searchBtn=document.querySelector('.searchBtn');
+    searchBtn = document.querySelector('.searchBtn');
 searchIcon.addEventListener('click', function () {
     searchModal.classList.remove('closeModal');
 });
