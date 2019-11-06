@@ -104,6 +104,8 @@ window.onscroll = function (e) {
 };
 
 var footerFoldIcon = document.querySelectorAll('.footer__allLink__col__top i');
+
+if(footerFoldIcon.length)
 footerFoldIcon.forEach(function (ele) {
     ele.addEventListener('click', function (e) {
         if (!e.target.classList.contains('open')) {
