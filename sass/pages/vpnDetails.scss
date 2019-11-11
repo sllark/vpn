@@ -69,7 +69,7 @@
       padding: 0 1rem;
     }
 
-    h2{
+    h2,h3{
       color: #392206;
       font-size: 22px;
       font-weight: 600;
@@ -160,58 +160,58 @@
     justify-content:center;
     align-items: center;
 
-    &__header{
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 15px 20px;
-      text-align: center;
-
-      @media (max-width: 880px){
-        justify-content: space-evenly;
-        width: 90%;
-      }
-
-      @media (max-width: 800px) {
-        display: none;
-      }
-
-      p{
-        font-family: "Titillium Web",inherit,sans-serif;
-        font-size: 15px;
-        color: rgba(0,0,0,.63);
-      }
-
-      p:nth-of-type(1){
-
-        width: 8%;
-        text-align: left;
-        padding-left: 2rem;
-
-      }
-
-
-      p:nth-of-type(2){
-        width: 33.6%;
-        text-align: left;
-        margin-left: 3rem;
-      }
-
-
-      p:nth-of-type(3){
-        width: 30.6%;
-        margin-left: 4rem;
-      }
-
-
-      p:nth-of-type(4){
-        width: 27.6%;
-        text-align: right;
-        margin-right: 7%;
-      }
-
-    }
+    //&__header{
+    //  width: 100%;
+    //  display: flex;
+    //  justify-content: center;
+    //  align-items: center;
+    //  padding: 15px 20px;
+    //  text-align: center;
+    //
+    //  @media (max-width: 880px){
+    //    justify-content: space-evenly;
+    //    width: 90%;
+    //  }
+    //
+    //  @media (max-width: 800px) {
+    //    display: none;
+    //  }
+    //
+    //  p{
+    //    font-family: "Titillium Web",inherit,sans-serif;
+    //    font-size: 15px;
+    //    color: rgba(0,0,0,.63);
+    //  }
+    //
+    //  p:nth-of-type(1){
+    //
+    //    width: 8%;
+    //    text-align: left;
+    //    padding-left: 2rem;
+    //
+    //  }
+    //
+    //
+    //  p:nth-of-type(2){
+    //    width: 33.6%;
+    //    text-align: left;
+    //    margin-left: 3rem;
+    //  }
+    //
+    //
+    //  p:nth-of-type(3){
+    //    width: 30.6%;
+    //    margin-left: 4rem;
+    //  }
+    //
+    //
+    //  p:nth-of-type(4){
+    //    width: 27.6%;
+    //    text-align: right;
+    //    margin-right: 7%;
+    //  }
+    //
+    //}
 
 
 
