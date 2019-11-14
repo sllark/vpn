@@ -12,7 +12,6 @@ function manageMenu(ele) {
 
     if (element) {
         element.isClicked = false;
-
         element.onclick = function (e) {
             if (!element.isClicked && !element.children[2].classList.contains('hide')) {
                 element.children[2].classList.remove('hide');
@@ -149,6 +148,17 @@ langList.forEach(function (element) {
     var selectedElement=document.querySelector('.langDropdown .header__top__all__middle__liOptions li.selected');
 
     manageActiveClass(element,selectedElement);
+
+
+});
+
+var WunderDropdownButton=document.querySelectorAll('.sectionReviewsDropdownButton .sectionWunder__dropdownButton__cont__list li');
+
+WunderDropdownButton.forEach(function (element) {
+    var selectedElement=document.querySelector('.sectionReviewsDropdownButton .sectionWunder__dropdownButton__cont__list li.selected');
+
+    manageActiveClass(element,selectedElement);
+
 
 
 });
