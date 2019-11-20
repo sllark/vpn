@@ -55,9 +55,9 @@
     justify-content: center;
     align-items: center;
     height: 9rem;
-    //position: fixed;
-    //left: 0;
-    //top: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
 
 
     transition: all 1s ease;
@@ -432,7 +432,7 @@
     padding: 4.7rem 0 0;
     display: flex;
     position: relative;
-    //top: 9rem;
+    top: 9rem;
 
     @media (max-width: 720px) {
       flex-flow: column;
@@ -711,7 +711,7 @@
   margin-bottom: 9rem;
   position: fixed;
   top: 0;
-  z-index: 999999;
+  z-index: 999;
   transition: all 0.25s ease;
 
 
@@ -722,6 +722,4 @@
   opacity: 0;
   height: 0;
   overflow: hidden;
-
-
 }
