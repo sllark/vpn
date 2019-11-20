@@ -48,7 +48,6 @@
 
   }
 
-
   &__top{
     z-index: 100;
     width: 100%;
@@ -56,9 +55,9 @@
     justify-content: center;
     align-items: center;
     height: 9rem;
-    position: fixed;
-    left: 0;
-    top: 0;
+    //position: fixed;
+    //left: 0;
+    //top: 0;
 
 
     transition: all 1s ease;
@@ -203,6 +202,9 @@
           line-height: 2;
           position: relative;
 
+          h3{
+            display: inline-block;
+          }
           img{
             width: 3px;
             height: 5px;
@@ -430,7 +432,7 @@
     padding: 4.7rem 0 0;
     display: flex;
     position: relative;
-    top: 9rem;
+    //top: 9rem;
 
     @media (max-width: 720px) {
       flex-flow: column;
@@ -706,4 +708,20 @@
 #smallHeader{
   height: 9rem !important;
   min-height: 9rem !important;
+  margin-bottom: 9rem;
+  position: fixed;
+  top: 0;
+  z-index: 999999;
+  transition: all 0.25s ease;
+
+
+}
+
+.hide{
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+
+
 }
